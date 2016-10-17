@@ -1,4 +1,4 @@
-<? php
+<?php
 $profile = array (
 array("Full Name"=>"Teresa Bembury", "Age"=>40 , "Occupation"=>"Multimedia Designer"),
 array("Full Name"=>"Elysa Bembury", "Age"=>20 , "Occupation"=>"Student"),
