@@ -1,8 +1,8 @@
 <?php
 $profile = array (
-array("Full Name"=>"Teresa Bembury", "Age"=>40 , "Occupation"=>"Multimedia Designer"),
-array("Full Name"=>"Elysa Bembury", "Age"=>20 , "Occupation"=>"Student"),
-array("Full Name"=>"Sky Bembury", "Age"=>20 , "Occupation"=>"Multimedia Designer")
+array("Profile"=>"Teresa Bembury", "Gender"=>'Female' , "Occupation"=>"Multimedia Designer"),
+array("Profile"=>"Elysa Bembury", "Gender"=>'Female' , "Occupation"=>"Student"),
+array("Profile"=>"Sky Bembury", "Gender"=>'Male' , "Occupation"=>"Multimedia Designer")
 );
 ?>
 
