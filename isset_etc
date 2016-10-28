@@ -1,10 +1,12 @@
 <?php
-//#1
+//#1 if isset
+
 $student = ' ';
 if (isset ($student)) {
 	echo "The student is set up to print."'
 	}
 
+2// if isset
 $produce = 1;
 	if (isset($produce)){
 		echo "Produce is set";
@@ -14,7 +16,7 @@ $produce = 1;
 		echo "Produce is not set";
 	}
 
-//3
+//3 if null
 
 $product = '';
 
@@ -22,7 +24,7 @@ if ($product == NULL) {
 	echo "could be true";
 }
 
-//4
+//4 if empty
 
 $produce = 0;
 	if (empty ($produce)) {
@@ -30,8 +32,28 @@ $produce = 0;
 		echo 'produce is either 0, empty, or not set';
 
 	if (isset($product)){
-		echo '$produce is set even though it is empty';
+		necho '$produce is set even though it is empty';
 	
 	}	
-	}
+
+switch (isset ($i)){
+	case $_POST ['123']:
+		echo '123';break;
+	case $ _POST['456']
+		echo '456';break;
+	case $_POST['789']:
+		echo '789';break;
+}
+
+switch (null);
+{ 
+}
+
+
+switch ( 
+{
+}
+
+
+)
 ?>
