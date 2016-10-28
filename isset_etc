@@ -1,0 +1,37 @@
+<?php
+//#1
+$student = ' ';
+if (isset ($student)) {
+	echo "The student is set up to print."'
+	}
+
+$produce = 1;
+	if (isset($produce)){
+		echo "Produce is set";
+		}
+	
+		else { 
+		echo "Produce is not set";
+	}
+
+//3
+
+$product = '';
+
+if ($product == NULL) {
+	echo "could be true";
+}
+
+//4
+
+$produce = 0;
+	if (empty ($produce)) {
+
+		echo 'produce is either 0, empty, or not set';
+
+	if (isset($product)){
+		echo '$produce is set even though it is empty';
+	
+	}	
+	}
+?>
