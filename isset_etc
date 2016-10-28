@@ -45,6 +45,7 @@ switch (isset ($i)){
 		echo '789';break;
 }
 
+
 $animal = NULL;
 
 switch ($animal)
@@ -56,12 +57,25 @@ switch ($animal)
 		echo "There are none"
 		break;
 
-		}
-}
-switch ( 
+
+	
+	}
+
+//empty()
+
+$refrigerator = ' ';
+switch ($refrigerator) 
 {
+	case  '0';
+	echo 'zero'
+	break;
+	case ' ':
+	echo 'empty';
+	break;
+	}
+
 }
 
 
-)
+
 ?>
